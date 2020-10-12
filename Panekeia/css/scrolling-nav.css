@@ -1,0 +1,18 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+section {
+
+}
+
+
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	border-radius: 29px;
+	padding: 10px 30px;
+	color: white;
+}

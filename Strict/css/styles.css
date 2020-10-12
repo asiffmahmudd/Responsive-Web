@@ -37,6 +37,7 @@ header{
 
 .banner-content button{
 	margin-top: 3%;
+	color: white !important;
 	background-color: transparent;
 	border: 1px solid #15a4fa;
 }
@@ -97,7 +98,6 @@ header{
 
 .portfolio-content{
 	text-align: center;
-	margin-bottom: 2em;
 }
 
 .over{
@@ -152,6 +152,11 @@ header{
 	color: white;
 	padding: 5em 0em;
 	text-align: center;
+}
+
+
+::placeholder {
+  color: white !important;
 }
 
 .form-control{

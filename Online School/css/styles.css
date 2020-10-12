@@ -1,0 +1,223 @@
+
+
+/* Global CSS*/
+
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-color: #E5E5E5;
+}
+
+.img-center{
+	display: block;
+	text-align: center;
+}
+
+section h2{
+	text-align: center;
+}
+
+.btn-style{
+	color: white !important;
+	background-color: #21B573 !important;
+	border-radius: 33px !important;
+	text-align: center !important;
+	font-weight: 16px !important;
+}
+
+.grey-para{
+	color: #585859;
+}
+
+h5{
+	color: #413960;
+}
+
+h2{
+	font-weight: 700;
+}
+
+.btn:hover{
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	transition: 0.4s;
+}
+
+/* Custom CSS */
+
+header{
+	background-color: #f0fff0;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+header .logo{
+	width: 198.07px;
+	height: 59px;
+}
+
+.nav-link{
+	margin-right: 30px;
+}
+
+header .btn{
+	height: 43px !important;
+}
+
+nav .btn{
+	width: 110px;
+}
+
+nav{
+	margin-bottom: 98px;
+}
+
+header h1{
+	font-weight: 700;
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 70px;
+}
+
+.orange{
+	color: #FD511A;
+}
+
+.green{
+	color: #21B573;
+}
+
+.para-2{
+	color: #6C6B6B;
+	line-height: 36px;
+	margin-bottom: 26px;
+}
+
+.banner-btn{
+	width: 200px !important;
+	margin-bottom: 63px;
+}
+
+/* info */
+
+.info{
+	margin-top: 42px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.info img{
+	width: 66px;
+	height: 85px;
+}
+
+.info-content{
+	margin: 0 auto;
+	padding: 54px 66px;
+	background-color: #F8FFFB;
+	width: 270px !important;
+	height: 270px !important;
+}
+
+.info-content h5{
+	margin-top: 22px;
+	font-size: 24px;
+}
+
+.info-content p{
+	color: #6C6B6B;
+}
+
+.info-content:hover{
+	background-color: white;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	transition: 0.5s ease-in-out;
+}
+
+/* courses */
+
+.courses h2{
+	margin-bottom: 86px;
+}
+
+.card{
+	padding: 25px 20px;
+	border-radius: 15px;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-body{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.card h5{
+	 
+}
+
+.card .btn{
+	width: 150px;
+	margin-bottom: 34px;
+	margin-top: 20px;
+}
+
+.card p{
+	color: #585859;
+}
+
+.card-content{
+	width: 100%;
+	float: left;
+}
+
+.card-bottom p{
+	float: left;
+}
+.card-bottom span{
+	float: right;
+}
+
+.card-bottom img{
+	width: 18px;
+	height: 20px;
+}
+
+/* testimonials */
+
+.testimonials{
+	margin-top: 80px;
+	margin-bottom: 106px;
+}
+
+.testimonials h2{
+	margin-bottom: 67px;
+}
+
+.testimonials img{
+	width: 120px;
+	height: 120px;
+}
+
+/* service */
+
+.service{
+	padding-top: 55px;
+	padding-bottom: 65px;
+	background-color: #282531;
+	color: white;
+}
+
+.service li{
+	list-style: none;
+}
+
+/* footer */
+
+footer{
+	padding: 20px 0px;
+	background-color: #282531;
+	color: white;
+	text-align: center; 
+}

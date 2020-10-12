@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #7a39a0;
+	padding-bottom: 80px;
+}
+
+nav{
+	background-color: #7a39a0 !important;
+}
+
+.navbar-nav li{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.navbar-nav li a{
+	color: white !important;
+}
+
+.navbar-nav li:hover{
+	background-color: orange;
+	transition: 0.5s;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.head-content{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.head-content h1{
+	color: white;
+}
+
+.head-button button{
+	background-color: orange;
+	border: none;
+	box-shadow: 2px 2px 2px tomato;
+	padding: 10px 20px;
+}
+
+.head-button{
+	text-align: center;
+}
+
+.head-button button:hover{
+	background-color: tomato;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	transition: 0.4s;
+}
+
+/* services */
+
+.services{
+	background-color: #1eeab7;
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.section-header{ 
+}
+
+.section-header span{
+	display: block;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 2px;
+	width: 100px;
+}
+
+.service-content-div{
+	margin-top: 40px;
+}
+
+
+/* team */
+
+.team{
+	text-align: center;
+	background-color: lightgrey;
+	padding: 40px 0px;
+}
+
+.team .fa{
+	color: white;
+	background-color: grey;
+	padding: 7px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+/* skills */
+
+.skills{
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.skill-image{
+	padding: 60px;
+	margin-bottom: 20px;
+}
+
+.skills .image-1{
+	background: url(../img/ui_blue.png) no-repeat center top;
+	background-size: contain;
+}
+
+.skills .image-2{
+	background: url(../img/ui_green.png) no-repeat center top;
+	background-size: contain;
+}
+
+.skills .image-3{
+	background: url(../img/ui_orange.png) no-repeat center top;
+	background-size: contain;
+}
+
+.skills .image-4{
+	background: url(../img/ui_pink.png) no-repeat center top;
+	background-size: contain;
+}
+
+/* portfolio */
+
+.portfolio{
+	text-align: center;
+	background-color: #fcf78f;
+	padding: 50px 0px;
+}
+
+.options li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background-color: grey;
+	opacity: 0.4;
+}
+
+.portfolio button{
+	color: white;
+	background-color: skyblue;
+	border: none;
+	box-shadow: 2px 2px 2px darkblue;
+	padding: 10px 20px;
+}
+
+.portfolio button:hover{
+	background-color: darkblue;
+	color: white;
+	transition: 0.4s;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* people */
+
+.people{
+	padding: 50px 0px;
+	background-color: #db5392;
+	box-sizing: border-box;
+	color: white;
+}
+
+.people .section-header{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.client{
+	margin-bottom: 50px;
+}
+
+/* contact */
+
+.contact{
+	text-align: center;
+	padding: 50px 0px;
+	background-color: #3e4da0;
+	color: white;
+}
+
+.contact .section-header p{
+	margin: 0;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+  padding: 10px;
+}
+
+form{
+	margin-top: 30px;
+}
+
+.form-group input, textarea{
+	width: 100% !important;
+	background-color: #083163;
+	border: none;
+}
+
+.form-group textarea{
+	height: 200px;
+}
+
+form button{
+	color: white !important;
+	background-color: skyblue !important;
+	border: none;
+	box-shadow: 2px 2px 2px darkblue;
+	padding: 10px 20px;
+}
+
+form button:hover{
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	background-color: #083163 !important;
+	transition: 0.4s;
+}
+
+.contact .button{
+	text-align: center;
+}
+
+
+/* footer */
+
+footer{
+	padding: 20px 0px;
+	background-color: #003d89;
+}
+
+footer li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 15px;
+	margin-right: 7%;
+}
+
+footer li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.menu{
+	text-align: center;
+}
+
+footer li a:hover{
+	text-decoration: none;
+	color: #db5392;
+	transition: 0.3s;
+}

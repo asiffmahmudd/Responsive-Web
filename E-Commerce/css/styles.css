@@ -1,0 +1,160 @@
+
+
+
+/* Global CSS */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #E5E5E5;
+}
+
+.buy-btn{
+	background-color: black;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #FF9D00; 
+}
+
+.btn{
+	font-weight: bold;
+}
+
+.btn:hover{
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	color: white;
+	transition: 0.4s;
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+/* Custom CSS */
+
+/* header */
+
+
+.nav-item{
+	margin-left: 2em;
+}
+
+.carousel-item img{
+	height: 500px;
+	width: 500px !important;
+}
+
+.carousel-inner{
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+.carousel-indicators li{
+	background-color: rgba(233,144,1,1);
+}
+
+.carousel-text{
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+
+
+/* phones */
+
+section{
+	width: 100%;
+	float: left;
+}
+
+.phones{
+	margin: 100px 0px;
+}
+
+.section-header{
+	width: 100%;
+}
+
+.section-header h5{
+	float: left;
+}
+.section-header .left{
+	float: right;
+}
+
+.section-row{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+.section-content{
+	border-radius: 10px;
+	margin: 20px 0px;
+	background-color: white;
+	text-align: center;
+	padding: 20px 20px;
+	height: 570px;
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+}
+
+.section-content h6{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/* laptops */
+
+.laptops{
+	margin-top: 100px;
+}
+
+/* categories */
+
+.categories{
+	text-align: center;
+	margin-top: 150px;
+	padding-bottom: 50px;
+}
+
+.categories span{
+	width: 80px;
+	height: 7px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 20px;
+	background: linear-gradient(to right, rgba(229,215,21,1) 0%, rgba(229,215,21,1) 30%, rgba(233,144,1,1) 100%);
+}
+
+.categories-content{
+	margin-top: 100px;
+}
+
+.categories-img{
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 2px 20px 2px 20px;
+	box-shadow: 0px 0px 11px #0c0c0c82;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.bg-img{
+		display: none;
+	}
+}

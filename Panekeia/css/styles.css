@@ -1,0 +1,236 @@
+/*
+	author: Asif Mahmud;
+	Mail: asifmahmud3472@gmail.com;
+	Website:;
+*/
+
+/*
+
+===== Index =====
+	
+	1. Header
+	2. Fusce at
+	3. Facilisis
+	4. Ante donec
+	5. Blandit rhoncus
+	6. Placerat
+	7. Footer
+
+*/
+
+/* Global CSS */
+
+@import url('link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet"');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+/* Custom CSS */
+
+nav{
+	background-color: #edeff1 !important;
+	padding: 20px 0px !important;
+}
+
+header {
+ 	background: url('../img/banner.jpg') no-repeat center top;
+ 	background-size: cover;
+ 	padding-top: 500px;
+ 	padding-bottom: 140px;
+ 	color: white;
+ 	text-align: center;
+}
+
+.banner-header{
+	margin-bottom: 120px;
+}
+
+.banner-content{
+	margin-bottom: 85px;
+}
+
+.banner-button{
+	background-color: white;
+	color: maroon;
+	border-radius: 20px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.banner-single-content{
+	padding: 0px 50px;
+}
+
+
+/* news */
+
+.news{
+	text-align: center;
+	background-color: #edeff1;
+}
+
+.news button{
+	width: 180px;
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+}
+
+.news{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.news h2{
+	margin-bottom: 85px;
+}
+
+.news-text{
+	margin: 40px 0px;
+}
+
+/* newsletter */
+
+.newsletter{
+	text-align: center;
+	padding: 90px 0px 112px 0px;
+	background: url('../img/newsletter.jpg') no-repeat center top;
+	background-size: cover;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+
+.newsletter::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0, 0.4);
+	z-index: -1;
+}
+
+::placeholder {
+  color: white;
+}
+
+form{
+	position: relative;
+}
+
+.btn-news{
+	background-color: white !important;
+	color: maroon !important;
+	border-radius: 20px !important;
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	top: px;
+}
+
+form input{
+	margin-top: 20px;
+	background-color: transparent;
+	color: white !important;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 6px;
+	padding-left: 20px;
+	width: 100%;
+}
+
+form input:focus{
+}
+
+::-ms-input-placeholder{
+	color: white !important;
+}
+
+/* ante */
+
+.ante{
+	padding-top: 70px;
+	padding-bottom: 85px;
+}
+
+.ante button{
+	width: 200px;
+	color: white;
+	border-radius: 20px;
+}
+
+.ante-btn-1{
+	background-color: #dd4b2b !important;
+}
+
+.ante-btn-2{
+	background-color: #4b4e73 !important;
+}
+
+/* service */
+
+.service{
+	color: white;
+	background-color: #d75d0e;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+/* footer */
+
+.last-section{
+	background: url(../img/footer.jpg) no-repeat center top;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.last-section::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+footer{
+	text-align: center;
+	padding: 50px 0px;
+	background-color: #121e30;
+	color: white;
+}
+
+@media (max-width: 768px) { 
+	.ante img{
+		display: block;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.ante button{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 575.98px) { 
+	nav{
+		padding: 20px !important;
+	}
+}
